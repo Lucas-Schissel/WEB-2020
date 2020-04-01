@@ -11,20 +11,6 @@ class ClienteController extends Controller
 		return view("tela_cadastro_clientes");
     }
     
-    function nomesCliente(){
-        //$lista =[];
-        $clientes = Cliente::All();
-       // dd($clientes);
-
-       // foreach ($clientes as $c){
-       //     $lista[] = $c->nome;
-       // }
-
-       // return $lista;
-
-       return view("lista" , ["clientes" => $clientes]);
-    }
-    
     function novo(Request $req){
         $Nome = $req->input('nome');
         $Cep = $req->input('cep');
