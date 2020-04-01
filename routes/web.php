@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/usuario/cadastro', 'ClienteController@telaCadastro');
+Route::post('/usuario/novo', 'ClienteController@novo')->name('cliente_novo');
+Route::get('/usuario/lista', 'ClienteController@nomesCliente');

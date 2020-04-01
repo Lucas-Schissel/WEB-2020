@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+body{
+  /*background-color: #000000;*/
+  background-image: url("/imagens/cadastro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F56461;
+  
+}
